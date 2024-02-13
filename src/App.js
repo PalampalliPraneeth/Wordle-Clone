@@ -34,18 +34,18 @@ function App() {
     }
     if (wordSet.has(currWord.toLowerCase())) {
       setCurrAttempt({ attempt: currAttempt.attempt + 1, letter: 0 });
-      console.log("37:", currWord, "with correct word:", correctWord);
+      // console.log("37:", currWord, "with correct word:", correctWord);
     } else {
-      console.log("39:", currWord, "with correct word:", correctWord);
+      // console.log("39:", currWord, "with correct word:", correctWord);
       alert("Word not found");
     }
 
-    if (currWord === correctWord) {
-      console.log('success',)
+    if (currWord.toLowerCase() === correctWord) {
+      // console.log('success')
       setGameOver({ gameOver: true, guessedWord: true });
       return;
     }
-    console.log(currAttempt);
+    // console.log(currAttempt);
     if (currAttempt.attempt === 5) {
       setGameOver({ gameOver: true, guessedWord: false });
       return;
