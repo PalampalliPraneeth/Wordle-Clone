@@ -1,4 +1,3 @@
-Youtube Video : https://www.youtube.com/watch?v=WDTNwmXUz2c
 
 # Getting Started with Create React App
 
