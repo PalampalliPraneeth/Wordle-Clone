@@ -1,12 +1,9 @@
-# Wordle Clone
-
-![Wordle Clone](.public/wordle.png)
-
-Wordle Clone is a web-based game inspired by the popular word-guessing game Wordle. It's built using React and provides an engaging and challenging experience for players to test their word-solving skills.
+# <img src="public/wordle.png" alt="Wordle Logo" width="30" height="30"> Wordle Clone 
+Wordle Clone is a web-based game inspired by the popular word-guessing game Wordle. It's built using React JS and provides an engaging and challenging experience for players to test their word-solving skills.
 
 ## Introduction
 
-Wordle is a game where players try to guess a secret word by guessing different combinations of letters. This project is a clone of the original Wordle game, built using React.
+Wordle is a game where players try to guess a secret word by guessing different combinations of letters. This project is a clone of the original Wordle game, built using React JS.
 
 ## Features
 
